@@ -1,0 +1,243 @@
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  font-family: "helvetica", "arial";
+}
+
+.selected-city {
+  margin-top: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.headline-and-image {
+  display: flex;
+  flex-direction: row;
+  margin: 4px;
+}
+
+.headline-and-image:hover {
+  cursor: pointer;
+}
+
+.author-about {
+  font-style: italic;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 15%;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.centered {
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.city-header-image {
+  width: 100%;
+}
+
+.header-text {
+  color: white;
+}
+
+.header-button {
+  color: white;
+  background-color: #e903af;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.hlw-works-and-modules {
+  color: black;
+  margin: 0 auto;
+}
+
+.hlw-works-header {
+  color: black;
+}
+
+.hlw-paragraph {
+  margin: 0 auto;
+  width: 30vw;
+}
+
+.mini-modules {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 30vw;
+}
+
+.mini-module {
+  display: flex;
+  flex-direction: column;
+}
+
+.map {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.estimate-trip-heading {
+  color: black;
+}
+
+.estimate-trip-description {
+  color: black;
+}
+
+.estimate-trip {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 55vw;
+  text-align: left;
+}
+
+.estimate-trip-ugc-img {
+  width: 30vw;
+  margin-left: 45px;
+  background-image: url("https://cl.ly/1U2K1U1g2P0Q/Screen%20Shot%202018-02-25%20at%206.54.22%20AM.png");
+  height: 270px;
+}
+
+.estimate-trip-text {
+  height: 350px;
+}
+
+.estimate-trip-heading {
+  text-align: left;
+}
+
+.featured-article-header {
+  color: black;
+}
+
+.featured-article-img {
+  height: 10rem;
+  width: 350px;
+}
+
+.featured-article-description {
+  color: black;
+}
+
+.featured-content-header {
+  color: black;
+}
+
+.featured-content {
+  display: flex;
+  flex-direction: row;
+  width: 55vw;
+  margin: 0 auto;
+}
+
+.ways-to-ride {
+  color: black;
+  margin: 0 auto;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.ways-to-ride-list {
+  display: flex;
+  flex-direction: row;
+  background-color: #f3f3f5;
+  border-radius: 3px;
+  margin-bottom: 0px;
+}
+
+.way-to-ride {
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.way-to-ride:hover {
+  cursor: pointer;
+}
+
+.ways-to-ride-img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.table-container {
+  border: 1px solid #d9dce6;
+  border-radius: 3px;
+}
+
+.table {
+  width: 100%;
+  border: 1px solid #d9dce6;
+  border-radius: 3px;
+}
+
+.pink {
+  color: #e903af;
+}
+
+.table-label {
+  float: left;
+}
+
+.drive-with-lyft-in-city {
+  color: black;
+  width: 30vw;
+  margin: 0 auto;
+}
+
+.cta-img {
+  width: 80vw;
+}
+ .cta-text-and-button {
+   position: absolute;
+   bottom: 1%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: flex;
+   flex-direction: row;
+ }
+
+ .cta-module {
+   color: black;
+ }
+
+.cta-button {
+  color: white;
+  background-color: #e903af;
+  border-radius: 4px;
+  margin-top: 17.5px;
+    height: 45%;
+    margin-left: 20px;
+    padding: 4px;
+}
+
+.list-city {
+  color: #ff00bf;
+}
+
+.list-city:hover {
+  color: #b30086;
+}
+
+.language-label {
+  border-bottom: 1px solid #d9dce6;
+  margin-bottom: 2px;
+}
